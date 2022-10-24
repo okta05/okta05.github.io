@@ -1,87 +1,227 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio | Oktaviano Kurniawan</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
-
-    <title>Portofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 
 <body>
-    <div>
-        <ul>
-            <a href="index.html">Biodata</a>
-            <a href="">Portofolio</a>
-        </ul>
+    <nav class="navbar navbar-expand-lg bg-light shadow-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Okta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#tentang"><b>Tentang</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#keahlian"><b>Keahlian</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#pendidikan"><b>Pendidikan</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#kontak"><b>Kontak</b></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"><b>Biodata</b></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <img src="P2.jpeg" alt="" class="gambar">
     </div>
 
-    <h1 style="text-align: center;">Portofolio</h1>
+    <!-- Tentang Saya -->
+    <div class="container">
+        <h2 class="text-center mb-3" id="tentang">Tentang Saya </h2>
+        <div class="row">
+            <div class="d-flex">
+                <div class="flex-shrink-0">
+                    <img src="P1.jpeg" style="width: 300px;" alt="">
+                </div>
+                <div class="flex-grow-1 ms-3">
+                    <p><b>Saya Oktaviano Kurniawan biasa dipanggil vian atau okta, Saya lahir
+                            di Banyuwangi
+                            pada tanggal 5 Oktober 2001. Saya anak ke 2 dari 2 bersaudara. Saya saat ini bertempat
+                            tinggal di perumahan pengatigan indah. Agama yang saya anut adalah agama kristen.
+                            Saat ini saya menempuh pendidikan di Politeknik Negeri Banyuwangi dan mengambil jurusan
+                            Teknik Informatika prodi Teknologi Rekayasa Perangkat Lunak.</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <img src="OKTA.jpeg" id="gambar" style="width: 150px;">
+    <!-- Keahlian -->
+    <div class="container">
+        <h2 class="text-center mb-3" id="keahlian">Keahlian</h2>
+        <div class="row">
+            <div class="col-4">
+                <div class="card">
+                    <img src="Keahlian1.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Figma</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="Keahlian2.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Word</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="Keahlian3.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Musik</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <h2 class="tentang">Tentang Saya </h2>
-    <p class="halo"><b>Halo Semuanya</b></p>
-    <p id="para2"><b>Saya Oktaviano Kurniawan biasa dipanggil vian atau okta, Saya lahir di Banyuwangi
-            pada tanggal 5 Oktober 2001. Saya anak ke 2 dari 2 bersaudara. Saya saat ini bertempat
-            tinggal di perumahan pengatigan indah. Agama yang saya anut adalah agama kristen.
-            Saat ini saya menempuh pendidikan di Politeknik Negeri Banyuwangi dan mengambil jurusan
-            Teknik Informatika prodi Teknologi Rekayasa Perangkat Lunak.</b></p>
-    <h2>Pendidikan</h2>
+    <!-- Pendidikan -->
+    <div class="container">
+        <h2 class="text-center mb-3" id="pendidikan">Pendidikan</h2>
+        <div class="row">
+            <div class="col-3">
+                <div class="card">
+                    <img src="pendidikan1.jfif" class="card-img-top" id="img-p" alt="">
+                    <div class="card-body">
+                        <h5 class="card-tittle">SD Katolik Bakti Rogojampi</h5>
+                        <p class="card-teks">
+                            Jl. Ki Hajar Dewantoro, Kecamatan. Rogojampi, Kabupaten Banyuwangi, Jawa Timur 68462</p>
+                        <a href="https://yayasankarmel.or.id/tentang-kami/sdk-rogojampi/"
+                            class="btn btn-primary w-100">Kunjungi Situs</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="pendidikan2.jfif" class="card-img-top" id="img-p" alt="">
+                    <div class="card-body">
+                        <h5 class="card-tittle">SMP Katolik Bakti Rogojampi</h5>
+                        <p class="card-teks">
+                            Jl. Ki Hajar Dewantoro, Kecamatan. Rogojampi, Kabupaten Banyuwangi, Jawa Timur 68462</p>
+                        <a href="https://yayasankarmel.or.id/tentang-kami/smpk-rogojampi/"
+                            class="btn btn-primary w-100">Kunjungi Situs</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="pendidikan3.png" class="card-img-top" id="img-p" alt="">
+                    <div class="card-body">
+                        <h5 class="card-tittle">SMK PGRI 1 Giri Banyuwangi</h5>
+                        <p class="card-teks">
+                            Jl. Simpang Gajah Mada, Mojopanggung, Kec. Giri, Kabupaten
+                            Banyuwangi, Jawa Timur 68422</p>
+                        <a href="http://smkpgri1giri.sch.id/" class="btn btn-primary w-100">Kunjungi Situs</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="pendidikan4.jpeg" class="card-img-top" id="img-p" alt="">
+                    <div class="card-body">
+                        <h5 class="card-tittle">Politeknik Negeri Banyuwangi</h5>
+                        <p class="card-teks">
+                            Jalan Raya Jember No.KM13, Kawang, Labanasem, Kec. Kabat, Kabupaten Banyuwangi, Jawa Timur
+                            68461</p>
+                        <a href="https://poliwangi.ac.id/" class="btn btn-primary w-100">Kunjungi Situs</a>
+                    </div>
+                </div>
+            </div>
 
-    <table>
-        <tr>
-            <th>Tahun</th>
-            <th>Sekolah</th>
-        </tr>
-        <tr>
-            <td>2008 - 2009</td>
-            <td>SD Katolik Bakti Rogojampi</td>
-        </tr>
-        <tr>
-            <td>2009 - 2010</td>
-            <td>SD Negeri 1 Bulusan</td>
-        </tr>
-        <tr>
-            <td>2010 - 2014</td>
-            <td>SD Negeri 1 Pengatigan</td>
-        </tr>
-        <tr>
-            <td>2014 - 2017</td>
-            <td>SMP Katolik Bakti Rogojampi</td>
-        </tr>
-        <tr>
-            <td>2017 - 2020</td>
-            <td>SMK PGRI 1 Giri Banyuwangi</td>
-        </tr>
-        <tr>
-            <td>2020 - Sekarang</td>
-            <td>Politeknik Negeri Banyuwangi</td>
-        </tr>
-    </table>
+            <!-- Project -->
+            <div class="container">
+                <h2 class="text-center mb-3">Project</h2>
+                <div class="row">
+                    <div class="col-3 mx-auto">
+                        <div class="card">
+                            <img src="project/project1.PNG" class="card-img-top" id="img-p" alt="">
 
-    <h2>Kontak Saya</h2>
-    <ul>
-        <li><a href="https://www.instagram.com/vian14626/">Instagram</a></li>
-        <li><a href="https://api.whatsapp.com/send?phone=6283852260176">WhatsApp</a></li>
-        <li><a href="https://www.facebook.com/oktavianoivan.oktavianoivan.3">Facebook</a></li>
-        <li><a href="index.html">Biodata</a></li>
-    </ul>
+                        </div>
+                    </div>
 
-    <h2>Feedback</h2>
+                    <div class="col-3 mx-auto">
+                        <div class="card">
+                            <img src="project/project2.PNG" class="card-img-top" id="img-p" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    <form>
-        <label for="fname">Email:</label><br>
-        <input type="text" id="fname" name="fname" value="Email"><br><br>
-        <label for="lname">Nama:</label><br>
-        <input type="text" id="lname" name="lname" value="Nama"><br><br>
-        <label for="lname">Pesan:</label><br>
-        <input type="text" id="lpesan" name="lpesan" value="Ketik Pesan"><br><br>
-        <input type="submit" value="Submit">
-    </form>
+            <!-- Kontak Saya -->
+            <div class="container">
+                <h2 class="text-center mb-3" id="kontak">Kontak Saya</h2>
+                <form class="col-6 mx-auto">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nama</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1"
+                            placeholder="namaDepan namaBelakang">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Pesan</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-primary w-100">Kirim</button>
+                </form>
+            </div>
 
+            <!-- Footer -->
+            <div class="container">
+                <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                    <div class="col-md-4 d-flex align-items-center">
+                        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                            <svg class="bi" width="30" height="24">
+                                <use xlink:href="#bootstrap" />
+                            </svg>
+                        </a>
+                        <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Oktaviano Kurniawan</span>
+                    </div>
+
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                        <li class="ms-3"><a class="text-muted" href="https://www.instagram.com/vian14626/"><i
+                                    class="bi bi-instagram"></i></svg></a></li>
+                        <li class="ms-3"><a class="text-muted"
+                                href="https://api.whatsapp.com/send?phone=6283852260176"><i
+                                    class="bi bi-whatsapp"></i></svg></a></li>
+                        <li class="ms-3"><a class="text-muted"
+                                href="https://www.facebook.com/oktavianoivan.oktavianoivan.3"><i
+                                    class="bi bi-facebook"></i></svg></a></li>
+                    </ul>
+                </footer>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+                crossorigin="anonymous"></script>
+</body>
 
 </html>
